@@ -2,7 +2,7 @@ module "network" {
   source  = "app.terraform.io/miguelangel-training/network/google"
   version = "2.5.0"
   # insert required variables here
-network_name = miguelangel-network 
+network_name = "miguelangel-network" 
 project_id= var.project
 subnets = [
   {
